@@ -1,0 +1,19 @@
+#top .topContainer{
+  height:100px;
+}
+
+#right{
+  width:80%;
+}
+
+#leftMenu li{
+  float:left;
+}
+
+div.textZone{
+  float:left;
+}
+
+ul#domaines li, ul#expertises li{
+  float:left;
+}

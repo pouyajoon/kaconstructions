@@ -1,0 +1,406 @@
+/*@import url(http://fonts.googleapis.com/css?family=Average+Sans);*/
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans);
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family: 'Quattrocento Sans', sans-serif, Calibri, "MS Trebuchet",Arial,  sans-serif;
+	font-size:13px;
+	background: url('../images/bg.png')
+}
+
+#top{
+	top:0px;
+	text-align: center;
+	margin:0px auto;
+	background-color: #e1e1e1;	
+	min-height:100px;
+}
+
+#top .topContainer{
+	background: url('../images/logo.png') no-repeat;
+	margin: 0px auto;
+	min-height:100px;
+}
+
+#top p{
+	margin: 0px auto;
+	font-size: 1.3em;
+	text-align: right;
+	padding-top: 20px;
+	margin-left:200px;
+	margin-bottom:5px;
+}
+
+#right{
+	margin:0px auto;
+	padding-top:10px;
+	vertical-align: top;
+	min-height: 400px;
+}
+
+#leftMenu, #top{
+	width: 100%;
+}
+
+#right, #top .topContainer{
+	width:70%;
+	min-width: 810px;
+}
+
+#footer{
+	width:100%;
+	margin:0px auto;
+	background-color: #e1e1e1;	
+	margin-top:20px;
+	height:60px;
+}
+
+#menu{
+	background-color: #f5f5f5;
+	box-shadow: 0 0 5px #888;
+	text-align: center;
+	margin-top:-5px;
+}
+
+#leftMenu{	
+	text-align: center;
+/*	height:100px;*/
+}
+
+#leftMenu li a img{
+	width:64px;
+	border:none;
+}
+
+#leftMenu li:hover{
+	background-color:#dddddd;
+	border-radius: 5px;
+}
+
+#leftMenu div.name{
+	/*width:250px;*/
+	margin-top:6px;
+}
+
+#leftMenu li{
+	margin-top:8px;
+	font-size:1.2em;
+	list-style:none;
+	/*width:160px;*/
+	display:inline-block;
+	vertical-align:top;
+	padding:5px;
+	margin:5px;
+}
+
+h1{
+	color:#656565;
+	margin-top: 5px;
+}
+
+div.boxLeft, div.boxRight{
+	background-color: #DEDEDE;
+	/*border:2px solid #656565;*/
+	-moz-box-shadow: inset 0 0 10px #888;
+	-webkit-box-shadow: inset 0 0 10px#888;	
+	box-shadow: inset 0 0 10px #888;
+	padding:1px;
+
+}
+
+h2.left, h2.right{
+	margin:5px;
+	font-size: 1.1em;
+
+}
+
+ul.engagements{
+	text-align: left;
+	margin:0px;
+	padding:0px;
+	width: 100%;
+}
+
+ul.engagements img{
+	width:100px;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+ul.engagements li{
+	vertical-align: top;
+	text-align: center;
+	display: inline-block;
+	-moz-box-shadow: inset 0 0 10px #888;
+	-webkit-box-shadow: inset 0 0 10px#888;	
+	box-shadow: inset 0 0 10px #888;
+	width:100px;
+	height:260px;		
+	padding:5px;
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f6f6f6), to(#ebebeb));
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #f6f6f6, #ebebeb);
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #f6f6f6, #ebebeb);
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #f6f6f6, #ebebeb);
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #f6f6f6, #ebebeb);	
+  background: linear-gradient(top, #f6f6f6, #ebebeb);	
+  margin:5px 0px 0px 0px;
+
+}
+
+ul.engagements li.level2{
+	margin-top:30px;
+}
+ul.engagements li.level3{
+	margin-top:60px;
+}
+
+div#right{
+	/*background-color:#F7F7F7;*/
+}
+
+h2.left{
+	/*margin-left:30px;*/
+}
+
+div.boxLeft{
+	text-align:right;
+	border-bottom-left-radius: 90px;
+}
+
+div.textZoneLeft{
+	text-align: right;
+}
+
+div.boxRight{
+	text-align:left;
+	border-bottom-right-radius: 90px;
+}
+ul.services.left li{
+	text-align:right;
+}
+
+p.comment{
+	color:#A00500;
+	font-style:italic;
+}
+
+span.arrow{
+	color:#A00500;
+	font-size: 1.6em;
+}
+
+ul.services{
+	margin:0px;
+	padding:0px;
+	margin-top:20px;
+	height: 300px;
+}
+
+ul.services li{
+	margin:0px;
+}
+
+ul.services.left{
+	margin-right:20px;
+}
+
+ul.services.right{
+	margin-left:20px;
+}
+
+
+ul.services li{
+	list-style:none;
+}
+
+a{
+	color:#70090A;
+}
+
+a:active{
+	/*font-weight:bold;*/
+}
+
+a:visited, a:link {
+	text-decoration:none;
+
+}
+a:hover{
+	/*font-weight:bold;*/
+}
+
+ul#leftMenu{
+	margin:0px auto;
+	padding:0px;
+}
+
+ul#expertises{
+	margin:0px;
+	margin:0px auto;
+	padding:0px;
+	text-align: left;
+}
+
+ul#expertises li{
+	display: inline-block;
+	/*padding:10px;*/
+	/*margin:5px;*/
+	margin-bottom:0px;
+	margin-top:0px;
+	text-align:left;
+	/*float:left;*/
+	margin-right:4px;
+	margin-bottom:4px;
+}
+
+ul#expertises li img{
+	width:120px;
+}
+
+
+ul#domaines{
+	margin:0px;
+	padding:0px;
+	width:460px;
+	height:254px;
+}
+
+ul#domaines li div{
+	font-size: 0.9em;
+	margin-top:2px;
+}
+
+ul#domaines li{
+	list-style: none;
+	display: inline-block;
+	width:128px;
+	height:72px;
+	vertical-align: top;
+	text-align: center;
+	margin:2px;
+
+	-moz-box-shadow: inset 0 0 10px #888;
+	-webkit-box-shadow: inset 0 0 10px#888;	
+	box-shadow: inset 0 0 10px #888;
+	padding:8px;
+	padding-top: 0px;
+}
+
+ul#domaines li img{
+	width:32px;
+	margin-top:8px;
+}
+
+.nostravaux{
+	margin:0px;
+	padding:0px;
+}
+
+.nostravaux li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.nostravaux li img{
+	/*margin: 5px;*/
+	max-width: 400px;
+	max-height: 300px;
+	border-radius: 5px;
+}
+
+.nostravaux li img.vertical{
+	max-width: 225px;
+	max-height: 300px;
+
+}
+
+.flexslider{
+
+}
+
+ul#expertises h3.name{
+	width:100%;
+	margin:5px 0px 0px 0px; 
+}
+
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	border: 1px solid #111;
+	background-color: #eee;
+	padding: 5px;
+	border-radius: 5px;
+}
+#tooltip h3, #tooltip div { margin: 0; }
+
+
+div.textZone{
+	width:49%;
+	display:inline-block;
+	vertical-align: top;
+}
+
+div.textZone p{
+	margin-right:10px;
+}
+
+
+.flexslider {
+	background: transparent;
+	border: 4px solid transparent;
+}
+
+.flexslider .slides > li {
+	text-align: center;
+}
+.flexslider .slides img{
+	display:inline-block;
+}
+
+
+div.contact div.textZoneLeft{
+	width:600px;
+	text-align:left;
+}
+div.contact div.textZoneRight{
+	width:270px;
+}
+
+div.contact div.textZoneRight div.comment{
+	margin-left: 5px;
+	text-align:center;
+	border:1px solid transparent;
+	border-radius: 20px;
+	-moz-box-shadow: inset 0 0 10px #888;
+	-webkit-box-shadow: inset 0 0 10px#888;	
+	box-shadow: inset 0 0 10px #888;
+	padding:10px;	
+	height:275px;
+}
+
+img.map{
+	border-radius: 20px;
+}
+
+
+div.comment img.icon{
+	width:32px;
+	height:32px;
+}
+div.comment h3{
+	height:32px;
+	line-height: 32px;
+	margin:0px;
+}
+
+div.comment h3, div.comment img.icon{
+	display: inline-block;
+	vertical-align: top;
+}
