@@ -2,6 +2,8 @@
 (function() {
   'use strict';
   $(function() {
+
+
     $('.flexslider').flexslider({
       animation: 'slide',
       // animationLoop: true,

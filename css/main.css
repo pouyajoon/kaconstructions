@@ -310,19 +310,26 @@ ul#domaines li img{
 
 .nostravaux li img{
 	/*margin: 5px;*/
-	max-width: 400px;
+	/*max-width: 400px;*/
 	max-height: 300px;
+
 	border-radius: 5px;
 }
 
 .nostravaux li img.vertical{
-	max-width: 225px;
+/*	max-width: 225px;
 	max-height: 300px;
-
+*/
 }
 
-.flexslider{
 
+.flexslider .slides img {
+	width: auto;
+	height: auto;
+}
+
+.flexslider .slides li.max{
+	width:759px !important;
 }
 
 ul#expertises h3.name{
@@ -353,7 +360,7 @@ div.textZone p{
 
 
 .flexslider {
-	background: transparent;
+	/*background: transparent;*/
 	border: 4px solid transparent;
 }
 
@@ -403,4 +410,41 @@ div.comment h3{
 div.comment h3, div.comment img.icon{
 	display: inline-block;
 	vertical-align: top;
+}
+
+
+
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!
+*/
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: left;
 }
